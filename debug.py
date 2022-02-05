@@ -1,51 +1,22 @@
+# disable=import-outside-toplevel
+"""
+Тесты, функции, которые нужно запустить. Чтобы запустить функцию, нужно изменить метод main.
+Если нужно вовзращать результат метода, то поставтье декоратор log_result
+"""
 import datetime
-import os
-import sys
 import json
-import uuid
-import logging
-from pathlib import Path
-import warnings
+from helpers import XML_PATH, log_result
 
-# Enable logging
-logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
-)
-logger = logging.getLogger(__name__)
-warnings.filterwarnings("ignore")
-
-STAND = r"C:\sbis\22.1100\build\online"
-SESSION = "0059fb08-0059fb09-00ba-bc391ae9dc50dd1a"  # musa - PRE-TEST-ONLINE
-# SESSION = "000ba3cf-0053a934-00ba-e9be5d161eb5ad2b"  # musa - TEST-ONLINE
-SEARCH_PATH = "'_0059fb08', 'public'"  # PRE-TEST-ONLINE
-XML_PATH = Path(r'C:\sbis\SCRIPTS\FILES')
 DOC_ID = 152355
 
-api = None
 
+def main():
+    """ Вызовете метод, который нужно запустить. """
+    check_before_fix(DOC_ID)
 
-def log_result(func_result):
-    def wrapper(*args, **kwargs):
-        result = func_result(*args, **kwargs)
-        logger.info(result)
-    return wrapper
-
-
-def setup(stand=STAND, session=SESSION, search_path=SEARCH_PATH):
-    home = os.getcwd()
-    sys.path.append(stand)
-
-    os.chdir(stand)
-    os.environ['SBIS_HOST'] = '10-176-129-231.dev-vpn.corp.tensor.ru'
-    os.environ['SBIS_PORT'] = '2001'
-    os.environ['SBIS_VIRTUAL_FOLDER'] = ''
-    import sbis_root as sbis
-    os.chdir(home)
-    sbis.SetCurrentSearchPath(search_path)
-    sbis.Session.Set(0, session)
-    sbis.Session.Set(sbis.WebServerContextKey.icsREQUEST_NUMBER, "1")
-    global api
-    api = sbis
+# =====================================================================================================================
+# =====================================================================================================================
+# =====================================================================================================================
 
 
 @log_result
@@ -61,6 +32,7 @@ def inflow_waybill(doc_id=None):
     manager = TransportManager(Gis.EGAIS, False)
     response = _get_response_in_doc(xmls)
     manager.emulate_in_doc(response, {})
+
 
 @log_result
 def answer(doc_id=None):
@@ -104,13 +76,7 @@ def humanize(msg: str):
     return humanize_error_text(msg)
 
 
-@log_result
-def call_test():
-    from test import test
-    return test()
-
-
-def overload(doc_id: int, number=1, ChangeOwnership=1):
+def send_overload(doc_id: int, number=1, ChangeOwnership=1):
     """ Отправка Перегрузки """
     from warehouse.gis.egais.transport.send_to_egais import overload
     overload_rec = sbis.Record({
@@ -134,4 +100,3 @@ def overload(doc_id: int, number=1, ChangeOwnership=1):
         })
     })
     overload(overload_rec)
-
