@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ns:Documents xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" Version="1.0" xmlns:c="http://fsrar.ru/WEGAIS/Common" xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:wb="http://fsrar.ru/WEGAIS/TTNSingle_v4" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <ns:Owner>
+    <ns:FSRAR_ID>030000256430</ns:FSRAR_ID>
+  </ns:Owner>
+
+  <ns:Document>
+    <ns:WayBill_v4>
+      <wb:Identity>sbis3_52344_06869ec2-630a-4661-934f-53c9324c9c84</wb:Identity>
+      <wb:Header>
+        <wb:Type>WBInvoiceFromMe</wb:Type>
+        <wb:NUMBER>8422046</wb:NUMBER>
+        <wb:Date>2021-12-22</wb:Date>
+        <wb:ShippingDate>2021-12-22</wb:ShippingDate>
+        <wb:Transport>
+          <wb:TRAN_TYPE>...</wb:TRAN_TYPE>
+          <wb:ChangeOwnership>NotChange</wb:ChangeOwnership>
+          <wb:TRANSPORT_TYPE>car</wb:TRANSPORT_TYPE>
+        </wb:Transport>
+        <wb:Shipper>
+          <oref:UL>
+            <oref:ClientRegId>030000256430</oref:ClientRegId>
+            <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАГТО"</oref:FullName>
+            <oref:ShortName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАГТО"</oref:ShortName>
+            <oref:INN>7602130257</oref:INN>
+            <oref:KPP>760201001</oref:KPP>
+            <oref:address>
+              <oref:Country>643</oref:Country>
+              <oref:RegionCode>76</oref:RegionCode>
+              <oref:description>г.Ярославль, пр-кт.Дзержинского, д.36А, кв.50, 150061</oref:description>
+            </oref:address>
+          </oref:UL>
+        </wb:Shipper>
+        <wb:Consignee>
+          <oref:UL>
+            <oref:ClientRegId>030000319059</oref:ClientRegId>
+            <oref:FullName>Юлькин филиал¯\_(ツ)_/¯</oref:FullName>
+            <oref:ShortName>Магто, ООО, филиал</oref:ShortName>
+            <oref:INN>7602130257</oref:INN>
+            <oref:KPP>760245002</oref:KPP>
+            <oref:address>
+              <oref:Country>643</oref:Country>
+              <oref:RegionCode>76</oref:RegionCode>
+              <oref:description>г. Ярославль, пр-кт Дзержинского</oref:description>
+            </oref:address>
+          </oref:UL>
+        </wb:Consignee>
+        <wb:Note>виси в утв</wb:Note>
+      </wb:Header>
+      <wb:Content>
+        <wb:Position>
+          <wb:Product>
+            <pref:UnitType>Unpacked</pref:UnitType>
+            <pref:Type>АП</pref:Type>
+            <pref:FullName>Пиво "IRON FELIX 3000" темное, нефильтрованное, непастеризованное, доля спирта 9.0%, экстрактивность 22%</pref:FullName>
+            <pref:AlcCode>0035486000001239031</pref:AlcCode>
+            <pref:AlcVolume>9</pref:AlcVolume>
+            <pref:Producer>
+              <oref:UL>
+                <oref:ClientRegId>030000075222</oref:ClientRegId>
+                <oref:FullName>Общество с ограниченной ответственностью "Большой Мастер"</oref:FullName>
+                <oref:ShortName>ООО "БМ"</oref:ShortName>
+                <oref:INN>5405394874</oref:INN>
+                <oref:KPP>540501001</oref:KPP>
+                <oref:address>
+                  <oref:Country>643</oref:Country>
+                  <oref:RegionCode>54</oref:RegionCode>
+                  <oref:description>630009, г. Новосибирск, ул. Дунайская, 16</oref:description>
+                </oref:address>
+              </oref:UL>
+            </pref:Producer>
+            <pref:ProductVCode>510</pref:ProductVCode>
+          </wb:Product>
+          <wb:Quantity>0.1</wb:Quantity>
+          <wb:Price>0</wb:Price>
+          <wb:Identity>1</wb:Identity>
+          <wb:InformF2>
+            <ce:F2RegId>TEST-FB-000000038099219</ce:F2RegId>
+          </wb:InformF2>
+          <wb:FARegId>TEST-FA-000000036415877</wb:FARegId>
+        </wb:Position>
+      </wb:Content>
+    </ns:WayBill_v4>
+  </ns:Document>
+
+</ns:Documents>

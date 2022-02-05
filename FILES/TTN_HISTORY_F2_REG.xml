@@ -1,0 +1,37 @@
+<ns:Documents xmlns:wbr="http://fsrar.ru/WEGAIS/TTNHistoryF2Reg" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns:Owner>
+    <ns:FSRAR_ID>3463047</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:TTNHistoryF2Reg>
+      <wbr:Header xmlns:wbr="http://fsrar.ru/WEGAIS/TTNHistoryF2Reg" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <wbr:WBRegId>TEST-TTN-0007807001</wbr:WBRegId>
+      </wbr:Header>
+      <wbr:Content xmlns:wbr="http://fsrar.ru/WEGAIS/TTNHistoryF2Reg" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <wbr:Position>
+          <wbr:Identity>1</wbr:Identity>
+          <wbr:HistF2 xmlns:wbr="http://fsrar.ru/WEGAIS/TTNHistoryF2Reg" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <wbr:step>
+              <wbr:lev>0</wbr:lev>
+              <wbr:Form2>TEST-FB-000000040891175</wbr:Form2>
+              <wbr:parentForm2>TEST-FB-000000038099219</wbr:parentForm2>
+              <wbr:Shipper>030000256430</wbr:Shipper>
+              <wbr:Consignee>030000319059</wbr:Consignee>
+              <wbr:WBRegId>TEST-TTN-0007807001</wbr:WBRegId>
+              <wbr:amount>0.1000</wbr:amount>
+            </wbr:step>
+            <wbr:step>
+              <wbr:lev>1</wbr:lev>
+              <wbr:Form2>TEST-FB-000000038099219</wbr:Form2>
+              <wbr:parentForm2>Создана по акту постановки на баланс</wbr:parentForm2>
+              <wbr:Shipper>030000256430</wbr:Shipper>
+              <wbr:Consignee>030000256430</wbr:Consignee>
+              <wbr:WBRegId>TEST-TTN-0007750787</wbr:WBRegId>
+              <wbr:amount>3.0000</wbr:amount>
+            </wbr:step>
+          </wbr:HistF2>
+        </wbr:Position>
+      </wbr:Content>
+    </ns:TTNHistoryF2Reg>
+  </ns:Document>
+</ns:Documents>

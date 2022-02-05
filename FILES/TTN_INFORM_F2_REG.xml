@@ -1,0 +1,52 @@
+<ns:Documents xmlns:wbr="http://fsrar.ru/WEGAIS/TTNInformF2Reg" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns:Owner>
+    <ns:FSRAR_ID>3463047</ns:FSRAR_ID>
+  </ns:Owner>
+  <ns:Document>
+    <ns:TTNInformF2Reg>
+      <wbr:Header xmlns:wbr="http://fsrar.ru/WEGAIS/TTNInformF2Reg" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <wbr:Identity>sbis3_52344_06869ec2-630a-4661-934f-53c9324c9c84</wbr:Identity>
+        <wbr:WBRegId>TEST-TTN-0007807001</wbr:WBRegId>
+        <wbr:EGAISFixNumber>TEST-WBF-202100000230666</wbr:EGAISFixNumber>
+        <wbr:EGAISFixDate>2021-12-22</wbr:EGAISFixDate>
+        <wbr:WBNUMBER>8422046</wbr:WBNUMBER>
+        <wbr:WBDate>2021-12-22</wbr:WBDate>
+        <wbr:Shipper>
+          <oref:UL xmlns:wbr="http://fsrar.ru/WEGAIS/TTNInformF2Reg" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <oref:ClientRegId>030000256430</oref:ClientRegId>
+            <oref:INN>7602130257</oref:INN>
+            <oref:KPP>760201001</oref:KPP>
+            <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАГТО"</oref:FullName>
+            <oref:ShortName>ООО "МАГТО"</oref:ShortName>
+            <oref:address>
+              <oref:Country>643</oref:Country>
+              <oref:RegionCode>76</oref:RegionCode>
+              <oref:description>Россия, 150061,ЯРОСЛАВСКАЯ ОБЛ,ДЗЕРЖИНСКОГО ПР-КТ,ЯРОСЛАВЛЬ Г,ДОМ 36А ,КВАРТИРА 50</oref:description>
+            </oref:address>
+          </oref:UL>
+        </wbr:Shipper>
+        <wbr:Consignee>
+          <oref:UL xmlns:wbr="http://fsrar.ru/WEGAIS/TTNInformF2Reg" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <oref:ClientRegId>030000319059</oref:ClientRegId>
+            <oref:INN>7602130257</oref:INN>
+            <oref:KPP>760245002</oref:KPP>
+            <oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАГТО"</oref:FullName>
+            <oref:ShortName>ООО "МАГТО"</oref:ShortName>
+            <oref:address>
+              <oref:Country>643</oref:Country>
+              <oref:RegionCode>76</oref:RegionCode>
+              <oref:description>150018,РОССИЯ,,,ЯРОСЛАВЛЬ Г,,КУРОПАТКОВА ПЕР,14,,</oref:description>
+            </oref:address>
+          </oref:UL>
+        </wbr:Consignee>
+      </wbr:Header>
+      <wbr:Content xmlns:wbr="http://fsrar.ru/WEGAIS/TTNInformF2Reg" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <wbr:Position>
+          <wbr:Identity>1</wbr:Identity>
+          <wbr:InformF2RegId>TEST-FB-000000040891175</wbr:InformF2RegId>
+          <wbr:BottlingDate>2020-02-04</wbr:BottlingDate>
+        </wbr:Position>
+      </wbr:Content>
+    </ns:TTNInformF2Reg>
+  </ns:Document>
+</ns:Documents>
