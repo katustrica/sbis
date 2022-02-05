@@ -46,7 +46,8 @@ def setup():
         # СЕССИЯ
         sleep(0.5)
         progress_bar.set_description('Устанавливаем сессию...')
-        session = session_config['PRE_TEST']
+        session_type = main_config['SESSION_TYPE'].upper()
+        session = session_config[session_type]
         search_path = f"'_{session.split('-')[0]}', 'public'"
 
         sbis.Session.Set(0, session)
