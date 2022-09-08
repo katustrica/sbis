@@ -24,3 +24,6 @@
 	![image](https://user-images.githubusercontent.com/28065104/189150065-f7b976bf-0778-4915-9286-5ccc454f7a2a.png)
 
 
+# Лучше установить модуль `tqdm`, чтобы все красиво отображалось.
+- Почитать про него можно тутhttps://github.com/tqdm/tqdm
+- Установить вот так `pip install tqdm`
