@@ -1,12 +1,6 @@
-from pathlib import Path
 import logging
-import configparser
-
 
 logger = logging.getLogger(__name__)
-config = configparser.ConfigParser()
-config.read('config.ini')
-XML_PATH = Path(config['Main']['XML_PATH'])
 
 
 def log_result(func_result):
