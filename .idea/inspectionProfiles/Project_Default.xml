@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E266" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tests.docs.doc_nom.sn.test_serial_num.docs" />
+          <option value="warehouse.egaissolutions.retail_sales.logging" />
+          <option value="warehouse.tools.rs.add_col_with_check" />
+          <option value="warehouse.tools.rs.add_col_with_check_batch_by_tuples" />
+          <option value="warehouse.tools.rs.add_record_value" />
+          <option value="warehouse.tools.rs.custom_filter" />
+          <option value="warehouse.tools.rs.set_record_value" />
+          <option value="sbis" />
+          <option value="workflow" />
+          <option value="warehouse.wrappers.logging" />
+          <option value="sbis_root" />
+          <option value="warehouse.egaissolutions.prepare_egais_nomenclature_helper.warehouse_base" />
+          <option value="warehouse.egaissolutions.egais.warehouse_base" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
